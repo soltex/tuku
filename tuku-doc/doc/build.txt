@@ -1,0 +1,104 @@
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-sms-ensms1069009130 -Dversion=1.2
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-mongo -Dversion=1.2
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-quartz -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-gm -Dversion=1.0
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-emoji -Dversion=1.0
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-notification -Dversion=1.0
+
+mvn archetype:create -DgroupId=org.apache.tomcat -DartifactId=tomcat7-redis-session-manager -Dversion=1.0
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-development-example -DarchetypeArtifactId=maven-archetype-webapp
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-weixintest-webapp -DarchetypeArtifactId=maven-archetype-webapp
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-mook-webapp -DarchetypeArtifactId=maven-archetype-webapp
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-calengine-webapp -DarchetypeArtifactId=maven-archetype-webapp
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-calengine-webapp -DarchetypeArtifactId=maven-archetype-webapp
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-img-server -DarchetypeArtifactId=maven-archetype-webapp -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-img-server-sdk -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-img-server-common -Dversion=1.0
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-zk -Dversion=1.0
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-centralserver-admisnervice-sdk -Dversion=1.0
+
+
+
+==========================jupin============================
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-common -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-framework -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-business-sdk -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-productdefine-api -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-productdefine -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-product-api -Dversion=1.0
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-admin-webapp -DarchetypeArtifactId=maven-archetype-webapp -Dversion=1.0
+
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-product-api -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-productdefine-api -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-framework -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-product -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-product-search -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ebs-pm-product-search-api -Dversion=1.0
+
+
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-define-api -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-item-api -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-search-api -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-framework -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-item -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-product-search -Dversion=1.0.0
+
+
+
+
+
+sdk
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-common-sdk -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-adminservice-sdk -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-adminservice-pdm-sdk -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-adminservice-authority-sdk -Dversion=1.0.0
+
+messagebox
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-messagebox -Dversion=1.0.0
+
+
+authority
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-authority-module -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-authority-api -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-authority -Dversion=1.0.0
+
+store
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-store-module -Dversion=1.0.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-jupin-ecs-store-api -Dversion=1.0.0
+
+
+
+===============================================TUKU===========================================
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-common -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-api-components -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-image-api -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-image-framework -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-search-api -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-search -Dversion=1.0
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-index-consumer -Dversion=1.0
+
+
+
+mvn archetype:create -DgroupId=com.vanstone -DartifactId=vanstone-tuku-image-api-components -Dversion=1.0
+
